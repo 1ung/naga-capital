@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/naga-capital/static/css/main.81c40363.chunk.css",
+    "main.js": "/naga-capital/static/js/main.dd44f4a0.chunk.js",
+    "main.js.map": "/naga-capital/static/js/main.dd44f4a0.chunk.js.map",
+    "runtime-main.js": "/naga-capital/static/js/runtime-main.7badf974.js",
+    "runtime-main.js.map": "/naga-capital/static/js/runtime-main.7badf974.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/naga-capital/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.e030bd34.chunk.js": "/naga-capital/static/js/2.e030bd34.chunk.js",
+    "static/js/2.e030bd34.chunk.js.map": "/naga-capital/static/js/2.e030bd34.chunk.js.map",
+    "index.html": "/naga-capital/index.html",
+    "precache-manifest.942964d0de275a56561506066869d178.js": "/naga-capital/precache-manifest.942964d0de275a56561506066869d178.js",
+    "service-worker.js": "/naga-capital/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/naga-capital/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.81c40363.chunk.css.map": "/naga-capital/static/css/main.81c40363.chunk.css.map",
+    "static/js/2.e030bd34.chunk.js.LICENSE.txt": "/naga-capital/static/js/2.e030bd34.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/naga-capital/static/media/sg-bg.5cdc477e.jpg",
+    "static/media/sample-icon.png": "/naga-capital/static/media/sample-icon.3cc50162.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7badf974.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.e030bd34.chunk.js",
+    "static/css/main.81c40363.chunk.css",
+    "static/js/main.dd44f4a0.chunk.js"
+  ]
+}
