@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "161e65c17a3a7d986cab6aadc143a1f2",
+    "revision": "6a7c34820f141fb2b29194642ce301b9",
     "url": "/naga-capital/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/naga-capital/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "7a579b6e309768b87a7b",
+    "revision": "b765d997ee30e6c4b6ea",
     "url": "/naga-capital/static/css/main.81c40363.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/naga-capital/static/js/2.e030bd34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a579b6e309768b87a7b",
-    "url": "/naga-capital/static/js/main.13035392.chunk.js"
+    "revision": "b765d997ee30e6c4b6ea",
+    "url": "/naga-capital/static/js/main.138b4dcc.chunk.js"
   },
   {
     "revision": "ffe11d6e11251f69a54d",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/naga-capital/static/css/main.81c40363.chunk.css",
-    "main.js": "/naga-capital/static/js/main.13035392.chunk.js",
-    "main.js.map": "/naga-capital/static/js/main.13035392.chunk.js.map",
+    "main.js": "/naga-capital/static/js/main.138b4dcc.chunk.js",
+    "main.js.map": "/naga-capital/static/js/main.138b4dcc.chunk.js.map",
     "runtime-main.js": "/naga-capital/static/js/runtime-main.7badf974.js",
     "runtime-main.js.map": "/naga-capital/static/js/runtime-main.7badf974.js.map",
     "static/css/2.829c9cb5.chunk.css": "/naga-capital/static/css/2.829c9cb5.chunk.css",
     "static/js/2.e030bd34.chunk.js": "/naga-capital/static/js/2.e030bd34.chunk.js",
     "static/js/2.e030bd34.chunk.js.map": "/naga-capital/static/js/2.e030bd34.chunk.js.map",
     "index.html": "/naga-capital/index.html",
-    "precache-manifest.8f43625088b42d9d6db0a14aee595993.js": "/naga-capital/precache-manifest.8f43625088b42d9d6db0a14aee595993.js",
+    "precache-manifest.83df1ed81eace7b520f39632761f26ed.js": "/naga-capital/precache-manifest.83df1ed81eace7b520f39632761f26ed.js",
     "service-worker.js": "/naga-capital/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/naga-capital/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.81c40363.chunk.css.map": "/naga-capital/static/css/main.81c40363.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.e030bd34.chunk.js",
     "static/css/main.81c40363.chunk.css",
-    "static/js/main.13035392.chunk.js"
+    "static/js/main.138b4dcc.chunk.js"
   ]
 }
