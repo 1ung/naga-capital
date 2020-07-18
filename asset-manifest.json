@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.71ebd8e0.chunk.css",
-    "main.js": "/static/js/main.2afd842d.chunk.js",
-    "main.js.map": "/static/js/main.2afd842d.chunk.js.map",
+    "main.js": "/static/js/main.dd91cab2.chunk.js",
+    "main.js.map": "/static/js/main.dd91cab2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.52313768.js",
     "runtime-main.js.map": "/static/js/runtime-main.52313768.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.2aa6f5dd.chunk.js": "/static/js/2.2aa6f5dd.chunk.js",
-    "static/js/2.2aa6f5dd.chunk.js.map": "/static/js/2.2aa6f5dd.chunk.js.map",
+    "static/js/2.b3530103.chunk.js": "/static/js/2.b3530103.chunk.js",
+    "static/js/2.b3530103.chunk.js.map": "/static/js/2.b3530103.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.da3177d9647aebdd32d5065df139a106.js": "/precache-manifest.da3177d9647aebdd32d5065df139a106.js",
+    "precache-manifest.2432ba6064ac7211a288016c6edb79e1.js": "/precache-manifest.2432ba6064ac7211a288016c6edb79e1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.71ebd8e0.chunk.css.map": "/static/css/main.71ebd8e0.chunk.css.map",
-    "static/js/2.2aa6f5dd.chunk.js.LICENSE.txt": "/static/js/2.2aa6f5dd.chunk.js.LICENSE.txt",
+    "static/js/2.b3530103.chunk.js.LICENSE.txt": "/static/js/2.b3530103.chunk.js.LICENSE.txt",
     "static/media/day-bg.jpg": "/static/media/day-bg.b7d66477.jpg",
     "static/media/naga-capital-logo.png": "/static/media/naga-capital-logo.4186fb22.png",
     "static/media/night-bg.jpg": "/static/media/night-bg.5cdc477e.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.52313768.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.2aa6f5dd.chunk.js",
+    "static/js/2.b3530103.chunk.js",
     "static/css/main.71ebd8e0.chunk.css",
-    "static/js/main.2afd842d.chunk.js"
+    "static/js/main.dd91cab2.chunk.js"
   ]
 }
