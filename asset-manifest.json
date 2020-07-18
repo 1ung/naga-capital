@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/naga-capital/static/css/main.81c40363.chunk.css",
-    "main.js": "/naga-capital/static/js/main.138b4dcc.chunk.js",
-    "main.js.map": "/naga-capital/static/js/main.138b4dcc.chunk.js.map",
-    "runtime-main.js": "/naga-capital/static/js/runtime-main.7badf974.js",
-    "runtime-main.js.map": "/naga-capital/static/js/runtime-main.7badf974.js.map",
-    "static/css/2.829c9cb5.chunk.css": "/naga-capital/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.e030bd34.chunk.js": "/naga-capital/static/js/2.e030bd34.chunk.js",
-    "static/js/2.e030bd34.chunk.js.map": "/naga-capital/static/js/2.e030bd34.chunk.js.map",
-    "index.html": "/naga-capital/index.html",
-    "precache-manifest.83df1ed81eace7b520f39632761f26ed.js": "/naga-capital/precache-manifest.83df1ed81eace7b520f39632761f26ed.js",
-    "service-worker.js": "/naga-capital/service-worker.js",
-    "static/css/2.829c9cb5.chunk.css.map": "/naga-capital/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.81c40363.chunk.css.map": "/naga-capital/static/css/main.81c40363.chunk.css.map",
-    "static/js/2.e030bd34.chunk.js.LICENSE.txt": "/naga-capital/static/js/2.e030bd34.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/naga-capital/static/media/sg-bg.5cdc477e.jpg",
-    "static/media/sample-icon.png": "/naga-capital/static/media/sample-icon.3cc50162.png"
+    "main.css": "/static/css/main.b3280c13.chunk.css",
+    "main.js": "/static/js/main.88a8f7ed.chunk.js",
+    "main.js.map": "/static/js/main.88a8f7ed.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.52313768.js",
+    "runtime-main.js.map": "/static/js/runtime-main.52313768.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.43f4c89d.chunk.js": "/static/js/2.43f4c89d.chunk.js",
+    "static/js/2.43f4c89d.chunk.js.map": "/static/js/2.43f4c89d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.573ea41e4ca992958f0e8a99455fa986.js": "/precache-manifest.573ea41e4ca992958f0e8a99455fa986.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.b3280c13.chunk.css.map": "/static/css/main.b3280c13.chunk.css.map",
+    "static/js/2.43f4c89d.chunk.js.LICENSE.txt": "/static/js/2.43f4c89d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/main-bg.152b72ab.jpg",
+    "static/media/naga-capital-logo.png": "/static/media/naga-capital-logo.4186fb22.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7badf974.js",
+    "static/js/runtime-main.52313768.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.e030bd34.chunk.js",
-    "static/css/main.81c40363.chunk.css",
-    "static/js/main.138b4dcc.chunk.js"
+    "static/js/2.43f4c89d.chunk.js",
+    "static/css/main.b3280c13.chunk.css",
+    "static/js/main.88a8f7ed.chunk.js"
   ]
 }
