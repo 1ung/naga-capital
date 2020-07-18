@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.95bb9b57.chunk.css",
-    "main.js": "/static/js/main.dd4496cf.chunk.js",
-    "main.js.map": "/static/js/main.dd4496cf.chunk.js.map",
+    "main.css": "/static/css/main.71ebd8e0.chunk.css",
+    "main.js": "/static/js/main.2afd842d.chunk.js",
+    "main.js.map": "/static/js/main.2afd842d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.52313768.js",
     "runtime-main.js.map": "/static/js/runtime-main.52313768.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.43f4c89d.chunk.js": "/static/js/2.43f4c89d.chunk.js",
-    "static/js/2.43f4c89d.chunk.js.map": "/static/js/2.43f4c89d.chunk.js.map",
+    "static/js/2.2aa6f5dd.chunk.js": "/static/js/2.2aa6f5dd.chunk.js",
+    "static/js/2.2aa6f5dd.chunk.js.map": "/static/js/2.2aa6f5dd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b5106a3032d9f9bc024b657a008213a1.js": "/precache-manifest.b5106a3032d9f9bc024b657a008213a1.js",
+    "precache-manifest.da3177d9647aebdd32d5065df139a106.js": "/precache-manifest.da3177d9647aebdd32d5065df139a106.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.95bb9b57.chunk.css.map": "/static/css/main.95bb9b57.chunk.css.map",
-    "static/js/2.43f4c89d.chunk.js.LICENSE.txt": "/static/js/2.43f4c89d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/day-bg.b7d66477.jpg",
-    "static/media/naga-capital-logo.png": "/static/media/naga-capital-logo.4186fb22.png"
+    "static/css/main.71ebd8e0.chunk.css.map": "/static/css/main.71ebd8e0.chunk.css.map",
+    "static/js/2.2aa6f5dd.chunk.js.LICENSE.txt": "/static/js/2.2aa6f5dd.chunk.js.LICENSE.txt",
+    "static/media/day-bg.jpg": "/static/media/day-bg.b7d66477.jpg",
+    "static/media/naga-capital-logo.png": "/static/media/naga-capital-logo.4186fb22.png",
+    "static/media/night-bg.jpg": "/static/media/night-bg.5cdc477e.jpg",
+    "static/media/night-logo.png": "/static/media/night-logo.f33ea392.png"
   },
   "entrypoints": [
     "static/js/runtime-main.52313768.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.43f4c89d.chunk.js",
-    "static/css/main.95bb9b57.chunk.css",
-    "static/js/main.dd4496cf.chunk.js"
+    "static/js/2.2aa6f5dd.chunk.js",
+    "static/css/main.71ebd8e0.chunk.css",
+    "static/js/main.2afd842d.chunk.js"
   ]
 }
