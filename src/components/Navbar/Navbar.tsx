@@ -1,10 +1,23 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../../assets/images/sample-icon.png";
+import DayLogo from "../../assets/images/naga-capital-logo.png";
+import NightLogo from "../../assets/images/night-logo.png";
+import moment from "moment";
 
 function Navbar() {
   const [path, setPath] = useState("");
+  const [currentLogo, setCurrentLogo] = useState<null | any>(null);
 
   useEffect(() => {
+    const format = "hh:mm";
+    const currentTime = moment(new Date(), format);
+    const daySeven = moment("07:00:00", format);
+    const nightSeven = moment("19:00:00", format);
+
+    if (currentTime.isBetween(daySeven, nightSeven)) {
+      setCurrentLogo(DayLogo);
+    } else {
+      setCurrentLogo(NightLogo);
+    }
     setPath(window.location.pathname);
   }, [path]);
 
@@ -27,13 +40,13 @@ function Navbar() {
   };
 
   return (
-    <nav className="sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="sticky-top navbar navbar-expand-lg navbar-dark bg-dark ">
       <a
         className={path === "/" ? "disabled" : "navbar-brand"}
         href="/"
         onClick={onHomeClick}
       >
-        <img src={Logo} alt="Naga Capital" className="navbar-logo" />
+        <img src={currentLogo} alt="Naga Capital" className="navbar-logo" />
       </a>
       <button
         className="navbar-toggler"

@@ -1,5 +1,20 @@
-body {
-  background-image: url("./assets/images/sg-bg.jpg");
+:root {
+  --logo-blue: #29383d;
+}
+
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fff;
+}
+
+.App {
+  /* background-image: url("./assets/images/day-bg.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,14 +22,8 @@ body {
   min-height: 100vh;
 }
 
-a,
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: #fff;
+.footer-copyright {
+  font-size: 0.8rem;
 }
 
 .learn-more-link:hover {
@@ -24,10 +33,50 @@ h5 {
 
 .About {
   text-align: center;
+  min-height: calc(100vh - 51px);
 }
 
-.btn-lg {
+.ContactUs {
+  text-align: center;
+  height: calc(100vh - 51px);
+}
+
+.company-name {
+  text-transform: uppercase;
+}
+
+.contact-address,
+.contact-details {
+  font-size: 1.2rem;
+}
+
+.btn-lg,
+.btn-sm {
   border-radius: 0;
+}
+
+.btn-tnc-accept {
+  border: 3px solid var(--logo-blue);
+  color: var(--logo-blue);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.btn-tnc-decline {
+  /* border: 3px solid #d7263d;
+  color: #d7263d; */
+  border: 3px solid #92140c;
+  color: #92140c;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.btn-tnc-accept:hover {
+  color: var(--logo-blue);
+}
+
+.btn-tnc-decline:hover {
+  color: #92140c;
 }
 
 .home-btn {
@@ -35,27 +84,105 @@ h5 {
 }
 
 .Home {
-  height: calc(100vh - 77.7px);
-  background-image: url("./assets/images/home-bg.jpg");
+  height: 100vh;
+  /* background-image: url("./assets/images/main-bg.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
 }
 
-.home-row {
+.contact-row {
   height: 100%;
   align-items: center;
 }
 
+.home-row {
+  height: 92%;
+  align-items: center;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  background: transparent !important;
+}
+
 .navbar-logo {
-  width: 120px;
+  height: 50px;
+}
+
+.map-div {
+  height: 256px;
+  width: 100%;
 }
 
 .about-desc {
   background: rgba(0, 0, 0, 0.5);
   padding: 1rem;
+  margin-top: 2rem;
 }
+
+.contact-desc {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+/* T&C modal */
+
+.tnc-modal {
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent dimmed overlay */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  z-index: 1050;
+}
+
+.tnc-modal.hidden {
+  display: none;
+}
+
+.tnc-modal .container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+}
+
+.tnc-modal .body {
+  box-shadow: 5px 10px #888888;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.tnc-container {
+  background: #ffffff;
+  border-radius: 5px;
+  height: fit-content;
+  overflow: auto;
+  height: 100%;
+}
+
+.tnc-row {
+  height: 100%;
+  overflow: auto;
+}
+
+.tnc-text {
+  color: #696969;
+  margin-bottom: 0.5rem;
+}
+
+.tnc-bold {
+  font-weight: 600;
+}
+
+/* --end-- */
 
 .animated-title {
   color: #222;
@@ -105,6 +232,7 @@ h5 {
 .animated-title > div.text-bottom {
   bottom: 0;
 }
+
 .animated-title > div.text-bottom div {
   animation: showBottomText 0.5s;
   animation-delay: 1.75s;
@@ -117,20 +245,41 @@ h5 {
   0% {
     transform: translate3d(0, 100%, 0);
   }
+
   40%,
   60% {
     transform: translate3d(0, 50%, 0);
   }
+
   100% {
     transform: translate3d(0, 0, 0);
   }
 }
+
 @keyframes showBottomText {
   0% {
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .map-div {
+    height: 284px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-div {
+    height: 322px;
+  }
+
+  .navbar-collapse {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 1);
   }
 }
 
@@ -138,8 +287,17 @@ h5 {
   h1 {
     font-size: 2rem;
   }
+
   .intro-text:first-child {
     padding-bottom: 1.6rem;
+  }
+
+  .ContactUs {
+    height: 100%;
+  }
+
+  .contact-desc {
+    margin-top: 2rem;
   }
 }
 
@@ -147,13 +305,28 @@ h5 {
   h1 {
     font-size: 1.9rem;
   }
+
   .intro-text:first-child {
     padding-bottom: 0;
+  }
+
+  .btn-tnc-accept {
+    margin-right: 0;
+    margin-bottom: 4px;
+  }
+
+  .btn-tnc-decline {
+    margin-left: 0;
+    margin-top: 4px;
   }
 }
 
 @media (max-width: 320px) {
   h1 {
     font-size: 1.6rem;
+  }
+
+  .navbar-logo {
+    height: 38px;
   }
 }

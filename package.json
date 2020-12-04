@@ -2,20 +2,27 @@
   "name": "naga-capital",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://1ung.github.io/naga-capital",
+  "homepage": "https://1ung.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/google-map-react": "^1.1.8",
     "@types/jest": "^24.0.0",
+    "@types/jquery": "^3.5.1",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-helmet": "^6.1.0",
     "@types/react-router-dom": "^5.1.5",
     "bootstrap": "^4.5.0",
     "gh-pages": "^3.1.0",
+    "google-map-react": "^1.1.7",
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
@@ -42,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.5.0"
   }
 }
